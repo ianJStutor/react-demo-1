@@ -5,3 +5,18 @@
 :root {
     color-scheme: dark;
 }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-link {
+    @apply mx-4 bg-orange-700 px-6 py-4 rounded-xl;
+}
+
+.active {
+    @apply text-white bg-orange-900;
+}
+
